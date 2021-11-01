@@ -1,0 +1,30 @@
+int smallerValue;
+int savedValue;
+
+for(int i = 0; i < sizeArray; i++)
+  {
+     smallerValue = arrayList[i];
+     int j = i;
+
+     while(j < sizeArray)
+       {
+
+           j++;
+           if(smallerValue > arrayList)
+            {
+               smallerValue = arrayList[j];
+               savedValue = j;
+            
+                continue;
+            }
+
+          }
+
+      if(smallerValue < arrayList[i])
+       {
+         arrayList[savedValue] = arrayList[i];
+         arrayList = smallerValue;
+       } 
+
+     else continue;
+          
